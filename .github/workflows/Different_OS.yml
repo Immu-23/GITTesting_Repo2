@@ -1,7 +1,6 @@
 name: Different OS
 
-on: 
- push:
+on:  push
 
 jobs:
   runs-on-ubuntu-machine:
