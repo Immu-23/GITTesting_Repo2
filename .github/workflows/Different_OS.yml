@@ -1,0 +1,10 @@
+name: Different OS
+
+on: 
+ push:
+
+jobs:
+  runs-on-ubuntu-machine:
+   runs-on: ubuntu-latest
+   steps:
+      - run: echo "Its running on $RUNNER_OS"
