@@ -1,4 +1,4 @@
-name: Second Workflow
+name: Triggers Workflow
 
 on: 
  push:
@@ -12,4 +12,4 @@ jobs:
   runs-on: ubuntu-latest
   
   steps:
-      - run: echo "${{ github.event_name }"
+      - run: echo "Triggers workflow"
