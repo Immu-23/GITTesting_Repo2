@@ -8,3 +8,9 @@ jobs:
    runs-on: ubuntu-latest
    steps:
       - run: echo "Its running on $RUNNER_OS"
+  runs-on-window:
+    runs-on: window-latest
+    steps:
+      - name: shell
+        shell: bash
+      - run: echo "Its running on $RUNNER_OS"
