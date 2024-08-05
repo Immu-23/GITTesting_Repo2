@@ -8,8 +8,8 @@ jobs:
    steps:
       - run: echo "Its running on $RUNNER_OS"
   runs-on-window:
-    runs-on: window-latest
+    runs-on: windows-latest
     steps:
       - name: shell
         shell: bash
-      - run: echo "Its running on $RUNNER_OS"
+        run: echo "Its running on $RUNNER_OS"
