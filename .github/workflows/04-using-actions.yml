@@ -11,9 +11,9 @@ jobs:
             with:
              java-version: '17'
              distribution: 'temurin'
-          - run: mvn --barch-mode --update.snapshots verify
-          - run: mkdir stagging && target/*.jar stagging
+          - run: mvn --batch-mode --update-snapshots verify
+          - run: mkdir stagging && cp target/*.jar staging
           - uses: actions/upload-artifact@v4
             with:
               name: Latest Run
-              path: stagging
+              path: staging
