@@ -18,6 +18,9 @@ jobs:
     MY_OVERWRITTEN_VAR: "job"
    steps:
      - name: Display Info
+       env:
+         MY_WORKFLOW_VAR: "steps"    
+         MY_OVERWRITTEN_VAR: "steps"
        run: |
         echo "Event name ${{github.event_name}}"
         echo "Ref: ${{github.ref}}"
