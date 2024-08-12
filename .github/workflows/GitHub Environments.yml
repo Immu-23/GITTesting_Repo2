@@ -30,7 +30,7 @@ jobs:
           echo "Environment var: ${{ secrets.TARGET_VAR }}"
   echo-stagging:
     runs-on: ubuntu-latest
-    environment: stagging
+    environment: staging
     steps:
       - name: Print stagging Variables
         run: |
