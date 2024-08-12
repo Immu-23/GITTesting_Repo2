@@ -1,3 +1,7 @@
 # GITTesting_Repo2
 
-Edit and create Pull request to Master Branch
+Edit and create New Branch
+
+Edit the Readme file againe and Create New branch
+
+Hands-On testing for Using Fucntions
