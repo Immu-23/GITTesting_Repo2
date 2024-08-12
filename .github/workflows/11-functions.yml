@@ -1,6 +1,8 @@
 name: 11 - Using Functions
 
-on: workflow_dispatch
+on: 
+ pull_request:
+ workflow_dispatch:
 
 jobs:
   echo1:
